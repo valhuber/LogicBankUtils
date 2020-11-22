@@ -1,7 +1,11 @@
 Utility Functions for Logic Bank.
 
 ## add_python_path
-This is from [stackoverflow](https://stackoverflow.com/questions/40304117/import-statement-works-on-pycharm-but-not-from-terminal/63487350?noredirect=1#comment113296551_63487350).
+This is from [stackoverflow](https://stackoverflow.com/questions/40304117/import-statement-works-on-pycharm-but-not-from-terminal/63487350?noredirect=1#comment113296551_63487350).  Essentially, many of us have discovered the hard way is that:
+
+* import statements often work in PyCharm
+
+* but fail in VSCode, Command Line, etc
 
 Setting ```PYTHONPATH``` is what makes imports work. I use the following VSCODE ```.env``` content so that it works for any project:
 ```
