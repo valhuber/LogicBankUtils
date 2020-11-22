@@ -22,7 +22,7 @@ project_urls = {
 
 setup(
     name="logicbankutils",
-    version="0.2.0",
+    version="0.3.0",
     url="https://github.com/valhuber/logicbankutils",
     license="BSD",
     author="Val Huber",
@@ -38,9 +38,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     platforms="any",
-    install_requires=[
-        "sqlalchemy-utils>=0.32.21, <1",
-    ],
+    install_requires=[],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",
