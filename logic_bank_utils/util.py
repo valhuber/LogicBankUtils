@@ -3,6 +3,17 @@ import os
 import sys
 from datetime import datetime
 
+"""
+PyCharm sets PythonPath to the Content Root folder, VSC does not by default, causing import failures
+
+Hence, add this to the VSCode launch config:
+"env": {"PYTHONPATH": "${workspaceFolder}:${env:PYTHONPATH}"}
+
+ref: https://stackoverflow.com/questions/53653083/how-to-correctly-set-pythonpath-for-visual-studio-code
+
+Or, use the function below.
+"""
+
 
 def add_python_path(project_dir: str, my_file: str) -> (str, str):
     """
