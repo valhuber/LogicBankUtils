@@ -36,7 +36,8 @@ def add_python_path(project_dir: str, my_file: str) -> (str, str):
 ```
 
 For example, if you are several levels deep in a project were the root is ```MyProjectRoot```:
-```
+
+```python
 import logic_bank_utils.util as logic_bank_utils
 
 (did_fix_path, sys_env_info) = \
