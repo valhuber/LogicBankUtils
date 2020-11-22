@@ -22,7 +22,7 @@ export PYTHONPATH=...
 
 
 #### add_python_path
-To address this, you can call the following:
+To address this in your application, you can call the following:
 
 ```python
 def add_python_path(project_dir: str, my_file: str) -> (str, str):
