@@ -1,4 +1,4 @@
-Utility Functions for Logic Bank.
+Utility Functions for Logic Bank, and others (no Logic Bank dependencies).
 
 ## add_python_path
 This is from [stackoverflow](https://stackoverflow.com/questions/40304117/import-statement-works-on-pycharm-but-not-from-terminal/63487350?noredirect=1#comment113296551_63487350).  Essentially, many of us have discovered the hard way is that:
