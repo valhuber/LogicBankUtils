@@ -61,17 +61,6 @@ Depends on:
 Change Log
 ----------
 
-0.0.1 - Initial Version
+0.3.0 - Initial Version
 
-
-
-.. code-block:: Python
-
-    def add_python_path(project_dir: str, my_file: str) -> (str, str):
-        """
-        @param project_dir: enclosing path node (e.g., LogicBank
-        @param my_file: callers __file__ variable
-        @result (path_was_fixed, path)
-        """
-
-
+0.4.0 - Improved doc
